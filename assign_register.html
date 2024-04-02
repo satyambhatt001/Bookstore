@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="assign_register.css">
+</head>
+<body>
+    <div class="container">
+        <form class="form" id="form">
+            <h2>Book Store Registration</h2>
+            <p>
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required placeholder="Enter username">
+            </p>
+            <P>
+                <label for="dateofbirth">Date of Birth</label>
+                <input type="date" id="dob" name="dob">
+            </P>
+            <p>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="Enter email">
+            </p>
+            <p>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required placeholder="Enter password">
+            </p>
+            <p>
+                <label for="password-confirm">Confirm Password</label>
+                <input type="password" id="password-confirm" name="password-confirm" required placeholder="Confirm password">
+            </p>
+            <p>
+                <input type="submit" value="Register" id="submit">
+            </p>
+            <p class="link">
+                Already have an account? <a href="assign_login.html" class="login">Login</a>
+            </p>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

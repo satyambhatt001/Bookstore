@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #181717e8;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 400px;
+    background: #f1efef;
+    padding: 30px;
+    border-radius: 50px;
+    
